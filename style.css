@@ -44,12 +44,14 @@ aside h1{
 main{
     display: flex;
     flex-direction: column;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
+    translate: 15%;
     border-radius: 12px;
     width: 603px;
 }
 
 main h2{
     margin: 3rem;
-
+    max-width: 430px;
+    font-size: 36px;
 }
