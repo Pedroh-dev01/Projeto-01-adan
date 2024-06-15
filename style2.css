@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+span{
+    color: #FF5678;
+}
+
+h1, h2{
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    display: flex;
+    gap: 2rem;
+}
+
+aside{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+aside h1{
+    height: 75px;
+    width: 255px;
+    font-size: 64px;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.header h2{
+    margin: 3rem 3rem 0 0;
+    max-width: 430px;
+    font-size: 36px;
+}
+
+.header img{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    translate: 15%;
+    border-radius: 12px;
+    width: 603px;
+    height: auto;
+    gap: 8px;
+}
+
+form label{
+    margin-left: 3rem;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+form input{
+    border: 1px solid #000000;
+    border-radius: 12px;
+    width: 489px;
+    height: 55px;
+    margin-left: 3rem;
+}
+
+form select {
+    border: 1px solid #000000;
+    border-radius: 12px;
+    width: 489px;
+    height: 55px;
+    margin-left: 3rem;
+}
+
+form .poins{
+    position: relative;
+    margin-right: 1.5rem;
+}
+
+form input + button{
+    position: absolute;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2.4rem;
+    z-index: 1;
+}
+
+.ancora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 489px;
+    height: 55px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    margin: 2rem 0 2rem 3rem;
+    background-color: #35E6E9;
+    border: 2px solid #C0EBF4;
+    border-radius: 12px;
+    color:#fff;
+}
